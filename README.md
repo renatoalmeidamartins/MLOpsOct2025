@@ -32,3 +32,5 @@
 - [Sample sagemaker studio lifecycle configurations](https://github.com/aws-samples/sagemaker-studio-lifecycle-config-examples)
 - [Using lifecycle configurations](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-studio-and-sagemaker-notebook-instance-now-come-with-jupyterlab-3-notebooks-to-boost-developer-productivity/)
 - [Dealing with multiple Sagemaker domains](https://docs.aws.amazon.com/sagemaker/latest/dg/domain-multiple.html)
+- [EMR Serverless announcement](https://aws.amazon.com/blogs/aws/amazon-emr-serverless-now-generally-available-run-big-data-applications-without-managing-servers/)
+- [Athena federated query](https://docs.aws.amazon.com/athena/latest/ug/connectors-available.html)
