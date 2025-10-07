@@ -31,3 +31,4 @@
 - [Deciding how to use Docker containers for training and deploying models](https://docs.aws.amazon.com/sagemaker/latest/dg/docker-containers.html)
 - [Sample sagemaker studio lifecycle configurations](https://github.com/aws-samples/sagemaker-studio-lifecycle-config-examples)
 - [Using lifecycle configurations](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-studio-and-sagemaker-notebook-instance-now-come-with-jupyterlab-3-notebooks-to-boost-developer-productivity/)
+- [Dealing with multiple Sagemaker domains](https://docs.aws.amazon.com/sagemaker/latest/dg/domain-multiple.html)
