@@ -5,7 +5,11 @@
 <img src="./lab-login.jpg" alt="login options" width="300" height="300"/>
 
 ## Expected pre-requisites
-- [AWS Technical essentials](https://skillbuilder.aws/learn/K8C2FNZM6X/aws-technical-essentials/N7Q3SXQCDY)
+- [AWS Technical essentials](https://skillbuilder.aws/learn/K8C2FNZM6X/aws-technical-essentials/N7Q3SXQCDY) 
+
+## Supplementary activities
+[Workbook activities doc](./MLOps_Engineering_on_AWS_Workbook_Customers.docx)
+
 
 ## Day 1 links
 - DevOps Engineering on AWS and/or Practical Data Science with SageMaker course from [here](https://aws.amazon.com/training/classroom/)
@@ -17,3 +21,5 @@
   - [Dora report](https://dora.dev/research/2024/dora-report/)
   - [Martin Fowler's take on the State of DevOps report](https://martinfowler.com/bliki/StateOfDevOpsReport.html)
   - [Accelerate book](https://www.amazon.com/dp/1942788339/)
+- [Using Sagemaker Studio to build container images](https://aws.amazon.com/blogs/machine-learning/using-the-amazon-sagemaker-studio-image-build-cli-to-build-container-images-from-your-studio-notebooks/)
+- [sm-docker CLI](https://github.com/aws-samples/sagemaker-studio-image-build-cli)
