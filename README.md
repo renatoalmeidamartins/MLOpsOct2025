@@ -25,3 +25,6 @@
 - [sm-docker CLI](https://github.com/aws-samples/sagemaker-studio-image-build-cli)
 - [Sagemaker SDK repo](https://github.com/aws/sagemaker-python-sdk)
 - [Sagemaker doc on readthedocs.io](https://sagemaker.readthedocs.io/en/stable/)
+- [Repo with a lot of Sagemaker examples](https://github.com/aws/amazon-sagemaker-examples)
+- [Sagemaker models available in the AWS marketplace](https://aws.amazon.com/marketplace/search/results?FULFILLMENT_OPTION_TYPE=SAGEMAKER_ALGORITHM&filters=FULFILLMENT_OPTION_TYPE)
+- **[Sagemaker built-in algorithms](https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html)**
