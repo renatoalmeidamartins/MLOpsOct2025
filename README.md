@@ -6,6 +6,8 @@
 
 ## Expected pre-requisites
 - [AWS Technical essentials](https://skillbuilder.aws/learn/K8C2FNZM6X/aws-technical-essentials/N7Q3SXQCDY)
+
+## Day 1 links
 - DevOps Engineering on AWS and/or Practical Data Science with SageMaker course from [here](https://aws.amazon.com/training/classroom/)
 - DevOps foundational info:
   - [10+ deploys per day at Flickr](https://www.youtube.com/watch?v=LdOe18KhtT4&t=12s)
