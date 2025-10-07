@@ -34,3 +34,9 @@
 - [Dealing with multiple Sagemaker domains](https://docs.aws.amazon.com/sagemaker/latest/dg/domain-multiple.html)
 - [EMR Serverless announcement](https://aws.amazon.com/blogs/aws/amazon-emr-serverless-now-generally-available-run-big-data-applications-without-managing-servers/)
 - [Athena federated query](https://docs.aws.amazon.com/athena/latest/ug/connectors-available.html)
+- [Whitepaper for ingesting data from SaaS applications into your data lake](https://docs.aws.amazon.com/whitepapers/latest/patterns-for-ingesting-saas-data-into-aws-data-lakes/patterns-for-ingesting-saas-data-into-aws-data-lakes.html)
+- [Appflow supported applications](https://docs.aws.amazon.com/appflow/latest/userguide/app-specific.html)
+- Lake Formation topics
+  - [Tag-based access control](https://docs.aws.amazon.com/lake-formation/latest/dg/tag-based-access-control.html)
+  - [Data filters](https://docs.aws.amazon.com/lake-formation/latest/dg/data-filtering.html)
+  - [Lake Formation blueprints](https://docs.aws.amazon.com/lake-formation/latest/dg/workflows-about.html)
