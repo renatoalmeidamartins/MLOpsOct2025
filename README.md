@@ -7,3 +7,11 @@
 ## Expected pre-requisites
 - [AWS Technical essentials](https://skillbuilder.aws/learn/K8C2FNZM6X/aws-technical-essentials/N7Q3SXQCDY)
 - DevOps Engineering on AWS and/or Practical Data Science with SageMaker course from [here](https://aws.amazon.com/training/classroom/)
+- DevOps foundational info:
+  - [10+ deploys per day at Flickr](https://www.youtube.com/watch?v=LdOe18KhtT4&t=12s)
+  - [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B09JWVXFNG/)
+  - [The DevOps Handbook](https://www.amazon.com/dp/B09G2GS39R/)
+  - [The unicorn project](https://www.amazon.com/dp/B0812C82T9)
+  - [Dora report](https://dora.dev/research/2024/dora-report/)
+  - [Martin Fowler's take on the State of DevOps report](https://martinfowler.com/bliki/StateOfDevOpsReport.html)
+  - [Accelerate book](https://www.amazon.com/dp/1942788339/)
