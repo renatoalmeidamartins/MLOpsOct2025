@@ -29,3 +29,5 @@
 - [Sagemaker models available in the AWS marketplace](https://aws.amazon.com/marketplace/search/results?FULFILLMENT_OPTION_TYPE=SAGEMAKER_ALGORITHM&filters=FULFILLMENT_OPTION_TYPE)
 - **[Sagemaker built-in algorithms](https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html)**
 - [Deciding how to use Docker containers for training and deploying models](https://docs.aws.amazon.com/sagemaker/latest/dg/docker-containers.html)
+- [Sample sagemaker studio lifecycle configurations](https://github.com/aws-samples/sagemaker-studio-lifecycle-config-examples)
+- [Using lifecycle configurations](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-studio-and-sagemaker-notebook-instance-now-come-with-jupyterlab-3-notebooks-to-boost-developer-productivity/)
