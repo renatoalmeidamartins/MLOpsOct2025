@@ -48,3 +48,6 @@
 ## Day 2 links 
 - [Using Sagemaker AI project templates](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-projects-templates-sm.html)
 - [Walk Through a SageMaker AI MLOps Project Using Third-party Git Repos](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-projects-walkthrough-3rdgit.html)
+- [Sagemaker AI operators for Kubernetes](https://docs.aws.amazon.com/sagemaker/latest/dg/kubernetes-sagemaker-operators.html)
+- [SageMaker AI Components for Kubeflow pipelines](https://docs.aws.amazon.com/sagemaker/latest/dg/kubernetes-sagemaker-components-for-kubeflow-pipelines.html)
+- 
