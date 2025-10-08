@@ -55,4 +55,5 @@
 - [Limits associated with inferencing](https://docs.aws.amazon.com/marketplace/latest/userguide/ml-service-restrictions-and-limits.html)
 - [Best practices for multiple accounts](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_best-practices.html#orgs_best-practices-organization-structure)
 - [Recommended OUs](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/recommended-ous-and-accounts.html)
-- 
+- [Sagemaker autoscaling policies](https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling-policy.html)
+- [Sagemaker StackSets](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html)
