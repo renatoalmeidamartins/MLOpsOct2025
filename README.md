@@ -41,3 +41,6 @@
   - [Data filters](https://docs.aws.amazon.com/lake-formation/latest/dg/data-filtering.html)
   - [Lake Formation blueprints](https://docs.aws.amazon.com/lake-formation/latest/dg/workflows-about.html)
 - [Online vs offline feature store](https://docs.aws.amazon.com/sagemaker/latest/dg/feature-store-storage-configurations.html)
+- Hudi, Delta and Iceberg support on Glue
+  - [Introducing native support for Apache Hudi, Delta Lake, and Apache Iceberg on AWS Glue for Apache Spark, Part 1: Getting Started](https://aws.amazon.com/blogs/big-data/part-1-getting-started-introducing-native-support-for-apache-hudi-delta-lake-and-apache-iceberg-on-aws-glue-for-apache-spark/)
+  - [Introducing native support for Apache Hudi, Delta Lake, and Apache Iceberg on AWS Glue for Apache Spark, Part 2: AWS Glue Studio Visual Editor](https://aws.amazon.com/blogs/big-data/part-2-glue-studio-visual-editor-introducing-native-support-for-apache-hudi-delta-lake-and-apache-iceberg-on-aws-glue-for-apache-spark/)
