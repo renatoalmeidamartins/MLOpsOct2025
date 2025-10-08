@@ -52,3 +52,4 @@
 - [SageMaker AI Components for Kubeflow pipelines](https://docs.aws.amazon.com/sagemaker/latest/dg/kubernetes-sagemaker-components-for-kubeflow-pipelines.html)
 - [Sagemaker model cards](https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html)
 - [AWS config rules, search for the ones containing sagemaker to find recommended settings for using in Sagemaker](https://docs.aws.amazon.com/config/latest/developerguide/managed-rules-by-aws-config.html)
+- [Limits associated with inferencing](https://docs.aws.amazon.com/marketplace/latest/userguide/ml-service-restrictions-and-limits.html)
