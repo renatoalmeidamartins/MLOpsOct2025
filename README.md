@@ -40,3 +40,4 @@
   - [Tag-based access control](https://docs.aws.amazon.com/lake-formation/latest/dg/tag-based-access-control.html)
   - [Data filters](https://docs.aws.amazon.com/lake-formation/latest/dg/data-filtering.html)
   - [Lake Formation blueprints](https://docs.aws.amazon.com/lake-formation/latest/dg/workflows-about.html)
+- [Online vs offline feature store](https://docs.aws.amazon.com/sagemaker/latest/dg/feature-store-storage-configurations.html)
