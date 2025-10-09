@@ -81,3 +81,4 @@
 - [MLOps foundation roadmap for enterprises with Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enterprises-with-amazon-sagemaker/)
 - [MLOps on Sagemaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/mlops.html)
 - [Responsible AI](https://aws.amazon.com/ai/responsible-ai/)
+- [Async invocation](https://docs.aws.amazon.com/sagemaker/latest/dg/async-inference-create-invoke-update-delete.html)
