@@ -75,3 +75,6 @@
 - [Events sent by Sagemaker AI to EventBridge](https://docs.aws.amazon.com/sagemaker/latest/dg/automating-sagemaker-with-eventbridge.html)
 - [Sagemaker Unified Studio](https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/what-is-sagemaker-unified-studio.html)
 - [AWS Data Zone](https://aws.amazon.com/blogs/big-data/amazon-datazone-introduces-openlineage-compatible-data-lineage-visualization-in-preview/)
+- [Architecture diagram of Sagemaker Unified](https://d1.awsstatic.com/solutions/guidance/architecture-diagrams/collaborative-unified-data-and-ai-development-on-aws.pdf)
+- [Secure ML development using Studio (isolated VPCs, encryption, ...)](https://github.com/aws-samples/amazon-sagemaker-studio-secure-data-science-workshop)
+- [Sagemaker domain components](https://docs.aws.amazon.com/sagemaker/latest/dg/sm-domain.html)
