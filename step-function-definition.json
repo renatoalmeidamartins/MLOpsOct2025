@@ -1,0 +1,86 @@
+{
+  "Comment": "Training step",
+  "StartAt": "SageMaker CreateTrainingJob",
+  "States": {
+    "SageMaker CreateTrainingJob": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::sagemaker:createTrainingJob.sync",
+      "Parameters": {
+        "AlgorithmSpecification": {
+          "TrainingImage": "246618743249.dkr.ecr.us-west-2.amazonaws.com/sagemaker-xgboost:1.5-1",
+          "TrainingInputMode": "File"
+        },
+        "HyperParameters": {
+          "num_round": "5"
+        },
+        "InputDataConfig": [
+          {
+            "ChannelName": "train",
+            "DataSource": {
+              "S3DataSource": {
+                "S3DataType": "S3Prefix",
+                "S3Uri.$": "$.sourcedir",
+                "S3DataDistributionType": "FullyReplicated"
+              }
+            },
+            "ContentType": "text/csv"
+          }
+        ],
+        "StoppingCondition": {
+          "MaxRuntimeInSeconds": 1000
+        },
+        "ResourceConfig": {
+          "InstanceCount": 2,
+          "InstanceType": "ml.m5.xlarge",
+          "VolumeSizeInGB": 30
+        },
+        "OutputDataConfig": {
+          "S3OutputPath": "s3://modelartifactbucket-us-west-2-7489115643862713/"
+        },
+        "RoleArn": "arn:aws:iam::698451941323:role/LabStack-7eb8496d-4e9b-4c0a-b8bf--StepFunctionsRole-fX8o7xNha45J",
+        "TrainingJobName.$": "States.Format('trainingjob-{}',$$.Execution.Name)"
+      },
+      "Next": "SageMaker CreateModel"
+    },
+    "SageMaker CreateModel": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::sagemaker:createModel",
+      "Parameters": {
+        "ExecutionRoleArn": "arn:aws:iam::698451941323:role/LabStack-7eb8496d-4e9b-4c0a-b8bf--StepFunctionsRole-fX8o7xNha45J",
+        "ModelName.$": "States.Format('Abalone-{}',$$.Execution.Name)",
+        "PrimaryContainer": {
+          "Image": "246618743249.dkr.ecr.us-west-2.amazonaws.com/sagemaker-xgboost:1.5-1",
+          "Environment": {},
+          "ModelDataUrl.$": "$.ModelArtifacts.S3ModelArtifacts"
+        }
+      },
+      "Next": "SageMaker CreateEndpointConfig"
+    },
+    "SageMaker CreateEndpointConfig": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::sagemaker:createEndpointConfig",
+      "Parameters": {
+        "EndpointConfigName.$": "States.Format('Abalone-Endpoint-{}',$$.Execution.Name)",
+        "ProductionVariants": [
+          {
+            "InitialInstanceCount": 1,
+            "InitialVariantWeight": 1,
+            "InstanceType": "ml.m5.xlarge",
+            "ModelName.$": "States.Format('Abalone-{}',$$.Execution.Name)",
+            "VariantName": "AllTraffic"
+          }
+        ]
+      },
+      "Next": "SageMaker CreateEndpoint"
+    },
+    "SageMaker CreateEndpoint": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::sagemaker:createEndpoint",
+      "Parameters": {
+        "EndpointConfigName.$": "States.Format('Abalone-Endpoint-{}',$$.Execution.Name)",
+        "EndpointName.$": "States.Format('Abalone-{}',$$.Execution.Name)"
+      },
+      "End": true
+    }
+  }
+}
