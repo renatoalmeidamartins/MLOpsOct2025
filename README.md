@@ -69,3 +69,9 @@
 - [Sagemaker autoscaling policies](https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling-policy.html)
 - [Sagemaker StackSets](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html)
 - [Sagemaker operating models - centralizer, decentralized, federated teams](https://docs.aws.amazon.com/whitepapers/latest/sagemaker-studio-admin-best-practices/operating-model.html)
+
+## Day 3 links
+- [Sagemaker autopilot](https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-automate-model-development.html)
+- [Events sent by Sagemaker AI to EventBridge](https://docs.aws.amazon.com/sagemaker/latest/dg/automating-sagemaker-with-eventbridge.html)
+- [Sagemaker Unified Studio](https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/what-is-sagemaker-unified-studio.html)
+- [AWS Data Zone](https://aws.amazon.com/blogs/big-data/amazon-datazone-introduces-openlineage-compatible-data-lineage-visualization-in-preview/)
